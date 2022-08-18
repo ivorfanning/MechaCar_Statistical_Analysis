@@ -40,13 +40,35 @@ Then we applied the summary function to the linear regression model, the summary
 
 ![Linear reg summary](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/02_ML%20reg%20model%20summary.png)
 
+Here we have 3 questions to be answered:
 
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+we can conclude from the above two results that the vehicle length and ground clearance are the two variables provided a non-random amount of variance to the mpg values in the dataset
+
+3. Is the slope of the linear model considered to be zero? Why or why not?
+The slope of this linear model is not considered to be zero because all the coefficients are not even close to zero.
+
+5. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The p-value is much more less than 0.05, which means we could reject the null hypothesis, meaning the model does not predict mpg of MechaCar prototypes effectively.
 
 ## 2. Summary Statistics on Suspension Coils
 
+The following images are the results after we applied summary function of suspension coils dataset:
+
 ### Total Summary
 
+The sample mean is 1498.78 and it is close to the population mean which was determined to be 1500.
+![total summary](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/03_total%20summary%20of%20suspension%20coils.png)
+
 ### Lots Summary
+
+The means of each lot numbers are similar to the population mean 1500 and the sample mean 1498.78.
+![lots summary](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/04_lots%20summary%20of%20suspension%20coils.png)
+
+However the question is:
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+From the above results, we can tell the variance of sample dataset is 62, which is less than the 100 which is dictated by the specification. The variance of lot1 and lot2 are also less than 100, but the variance of lot3 is 170, which is much greater than 100, meaning the lot3 is a large contributing factor to the sample variance. In order to lower the sample variance, the manufacturing needs to imporove the lot3 performance.
 
 ## 3. T-Tests on Suspension Coils
 
