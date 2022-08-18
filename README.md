@@ -87,7 +87,21 @@ Then we use t-test to compare the mean of each lot and the population mean, from
 
 ## Study Design: MechaCar vs Competition
 
+To further assisst AutoRU to improve their MechaCar prototype, we could design another study to analyze more variables metricx. 
+
 - What metric or metrics are you going to test?
+
+From a consumer's point of view, the fuel efficiency should be an important factor when consumer makeing their decisions. To analyze the fuel efficiency, the company could gather data from the following aspects, such as number of cylinders of the engin, the horse power, the suspension, the length and weight of vehicle, the road condition, road types, tire types and pressure.
+
 - What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis will be there is no correlation between the fuel efficiency and each of the aspects.
+The alternative hypothesis is the fuel efficiency is corelated with one or more independent variables.
+
 - What statistical test would you use to test the hypothesis? And why?
+
+We could use linear regression to analysis the relationship of fuel efficiency and each independent variable, and then use multiple linear regression to see which variable contribute more effect to the fuel efficiency.
+
 - What data is needed to run the statistical test?
+
+To analyze the fuel efficiency, the company could gather data from the following aspects, such as number of cylinders of the engin, the horse power, the suspension, the length and weight of vehicle, the road condition, road types, tire types and pressure.
