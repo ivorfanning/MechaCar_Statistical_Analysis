@@ -72,8 +72,18 @@ From the above results, we can tell the variance of sample dataset is 62, which 
 
 ## 3. T-Tests on Suspension Coils
 
+As we know, a t-test is a statistical test that is used to compare the means of two groups. It is often used in hypothesis testing to determine whether a process or treatment actually has an effect on the population of interest, or whether two groups are different from one another.
 
-# Summary
+First we use t-test to compare the mean of sample dataset and population mean, the result shows the p-value is 0.06028, which is greater than the alpha 0.05. It means the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+![one sample ttest](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/05_t.test.png)
+
+Then we use t-test to compare the mean of each lot and the population mean, from the following three images, we can see p-value of lot1 and lot2 are greater than alpha 0.05, so the PSI of manufacturing lot1 and lot2 are not statistically different from the population mean of 1,500 pounds per square inch. The mean of lot3 is slightly lower than 0.05, we could say the PSI of manufacturing lot3 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![lot1 ttest](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/06_t.test%20lot1.png)
+
+![lot2 ttest](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/07_t.test%20lot2.png)
+
+![lot3 ttest](https://github.com/ivorfanning/MechaCar_Statistical_Analysis/blob/main/images_challenge/08_t.test%20lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
